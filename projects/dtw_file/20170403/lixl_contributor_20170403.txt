@@ -1,0 +1,12 @@
+contributor:AutofacDemo_projects.txt,78.58636385275105
+contributor:Beta_projects.txt,78.58636385275105
+contributor:CCourse_projects.txt,78.58636385275105
+contributor:ClusterDataSupport_projects.txt,78.58636385275105
+contributor:ClusterData_projects.txt,78.58636385275105
+contributor:firebug_projects.txt,1.441669099020156
+contributor:git_projects.txt,0.28541523113009293
+contributor:GrandMall_projects.txt,78.58636385275105
+contributor:GraphStorageMonitor_projects.txt,72.76269740099126
+contributor:mysql-server_projects.txt,0.7329857644834337
+contributor:php-src_projects.txt,0.3421637431263873
+contributor:QuantitativeAnalysis_projects.txt,78.58636385275105

@@ -1,0 +1,14 @@
+commit count is :7
+[1357ac55e7e1043849fdb52404bded7f8459a6af,Sun Aug 03 19:53:18 CST 2014],[3cdd3756bd9244fd80b76ca9af8bcf86eddb9148,Sun Aug 03 19:53:18 CST 2014],[beca07ca9ea891d5cd456098caca44f5c3a3c721,Sun Aug 03 19:53:18 CST 2014],[fae2637f980779509a44c7ff15a81ea748ab7664,Sun Aug 03 19:53:18 CST 2014],[9e92651d59d68ba20c860d36b23c156d63c24b5a,Sun Aug 03 19:53:18 CST 2014],[91e3ee42bada273ad154e072e6e1537d8fa8c676,Sun Aug 03 19:53:18 CST 2014],[e9218d0eb8bde330ef91deab0cd2ae8920c7f8e2,Sun Aug 03 19:53:18 CST 2014]
+comment count is :0
+
+contributor count is :1
+[8342846,Sun Aug 03 19:53:18 CST 2014]
+fork count is :0
+
+issue count is :0
+
+issue count is :0
+
+release count is :0
+

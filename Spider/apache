@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Apache &ndash; Freecode</title>
+    <link href="http://a.fsdn.com/fm/stylesheets/base_packaged.css?1386111739" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="http://a.fsdn.com/fm/stylesheets/ie.css?1386111726" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <meta property="og:title" content="Apache"/>
+    <meta property="og:description" content="A high performance Unix-based HTTP server."/>
+    <meta property="og:image" content="/screenshots/e3/89/e389d275a44d3683dc7cf671520bf4d3_thumb.jpg?1360741849"/>
+    <meta name="description" content="A high performance Unix-based HTTP server."/>
+    <meta name="keywords" content="Internet, Web, HTTP Servers">
+        <meta name="google-site-verification" content="LuyhdevGU_34uCpdk-MN6giihtzaQ50K89IEnf2GkQ0" />
+    <script language="JavaScript" type="text/javascript">
+      var immersion_adcode = '';
+      if (!window.FC) { window.FC = {}; }
+
+      FC.loadAd = function(id, src) {
+        var isImmersion = id.indexOf('immersion') >= 0;
+        if (immersion_adcode && !isImmersion) {
+          return;
+        }
+
+        document.write('<scr' + 'ipt type="text/javascript" src="' + src + '"><\/scr' + 'ipt>');
+      }
+
+      dfp_ord=Math.random()*10000000000000000;
+      dfp_tile = 1;
+
+      window.google_analytics_uacct = "UA-32013-4";
+
+      var _gaq = _gaq || [];
+
+      _gaq.push(
+          ['_setAccount', 'UA-32013-4'],
+          ['_trackPageview'],
+          ['t2._setAccount', 'UA-36126581-1'],
+          ['t2._trackPageview']
+      );
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    
+    <div id="page">
+      <div id="topnav">
+        <div class="topnav-container clearfix">
+<div class="top-login"><center>Effective 2014-06-18 Freecode is no longer being updated (content may be stale). <a href="/about">&raquo;Learn More</a></center></div>
+        </div>
+      </div>
+
+      <div id="container">
+        <div id="header" class="clearfix">
+          <div id="leaderboard">
+            <div class="banner1">
+              <!-- DoubleClick Ad Tag -->
+<script language="JavaScript" type="text/javascript">
+  FC.loadAd('main_p1_leader', document.location.protocol+'//ad.doubleclick.net/adj/ostg.freshmeat/main_p1_leader;pg=%2Fprojects%2Fapache;logged_in=0;sz=728x90;tile='+dfp_tile+';ord='+dfp_ord+'?');
+   dfp_tile++;
+</script>
+<!-- End DoubleClick Ad Tag -->
+
+                          </div>
+            <div class="logo">
+              <a href="/"><img alt="Freecode Logo" src="http://a.fsdn.com/fm/images/fm_logo.png?1386111726" /></a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="navbarblock">
+            <div class="navbar">
+              <span class="navleft"></span>
+              <ul class="navigation">
+                <li><a href="/">Home</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/tags">Browse Projects by Tag</a></li>
+                <!-- <li><a href="/projects/new">Submit new Project</a></li> -->
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <!-- <li><a href="http://help.freecode.com/" onclick="window.open(this.href);return false;">Help</a></li> -->
+                <li class="sites bubbleInfo"><a href="#" class="trigger">Sites</a>
+                  <div class="popup">
+                      <span class="p1"><img alt="" src="http://a.fsdn.com/fm/images/fm_sites_menu_01.gif?1386111726" /></span>
+                      <span class="p2"></span>
+                      <div class="menuitems">
+                        <ul class="sites-sub">
+                          <li><a href="http://freecode.com">All</a></li>
+                          
+                            <li><a href="http://mac.freecode.com">Mac OS X</a></li>
+                          
+                            <li><a href="http://mobile.freecode.com">Mobile</a></li>
+                          
+                            <li><a href="http://unix.freecode.com">Unix</a></li>
+                          
+                        </ul>
+                      </div>
+                      <span class="p3"><img alt="" src="http://a.fsdn.com/fm/images/fm_sites_menu_03.gif?1386111726" /></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="crumbs"><a href="/projects">Projects</a> / <span>Apache</span></div>
+    
+        <div class="clearfix">
+<h1>
+  Apache</h1>
+
+<div class="project-detail">
+  <p>Apache is the world's most popular HTTP server,
+being quite possibly the best around in terms of
+functionality, efficiency, security and speed.</p>
+  
+    <table id="project-tag-cloud">
+          <tr><th><span>Tags</span></th>
+<td><a href="/tags/internet" class="tagSize3" rel="tag">Internet</a>
+<a href="/tags/web" class="tagSize3" rel="tag">Web</a>
+<a href="/tags/http-servers" class="tagSize3" rel="tag">HTTP Servers</a>
+</td></tr>
+          <tr><th><span>Licenses</span></th>
+<td><a href="/tags/the-apache-license" class="tagSize3" rel="tag">Apache</a>
+<a href="/tags/bsd-license-original" class="tagSize3" rel="tag">BSD Original</a>
+</td></tr>
+          <tr><th><span>Operating Systems</span></th>
+<td><a href="/tags/windows" class="tagSize3" rel="tag">Windows</a>
+<a href="/tags/posix" class="tagSize3" rel="tag">POSIX</a>
+<a href="/tags/linux" class="tagSize3" rel="tag">Linux</a>
+<a href="/tags/bsd" class="tagSize3" rel="tag">BSD</a>
+<a href="/tags/solaris" class="tagSize3" rel="tag">Solaris</a>
+</td></tr>
+          <tr><th><span>Implementation</span></th>
+<td><a href="/tags/c" class="tagSize3" rel="tag">C</a>
+</td></tr>
+              </table>
+  
+  <div class="clearfix project-cta">
+    <div class="width50" id="more_info_download">
+      
+        <div class="moreinfolink">           <a href="/urls/3ad3e8da6a5c6a7dcf1f1d76b0747c17" onclick="_gaq.push(['_trackEvent', 'Projects', 'Website', 'Apache']);" title="Website at httpd.apache.org">Website</a></div>
+
+        <div class="downloadlink">          <a href="/urls/dee55d79baea219990f060ca463af068" class="" onclick="_gaq.push(['_trackEvent', 'Projects', 'Download', 'Apache']);" title="Download at httpd.apache.org">Download</a></div>
+      
+    </div>
+    <div class="width50" id="social-sharing">
+      <div class="google-plus">
+        <div class="g-plusone" data-size="medium"></div>
+
+        <script type="text/javascript">
+          (function() {
+           var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+           po.src = 'https://apis.google.com/js/plusone.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+           })();
+  </script>
+      </div>
+      <div class="twitter">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-text="A high performance Unix-based HTTP server." data-count="horizontal" data-via="freecode_com">Tweet</a>
+        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix">
+      <div class="recent-announcements">
+      </div>
+      <div class="recent-releases">
+        <h2>
+          <ul class="recents-sub-navigation">
+            <!-- <li><a href="/projects/apache/tags">Release tags</a></li> -->
+            <li><a href="/projects/apache/releases">All releases</a></li>
+          </ul>Recent releases
+        </h2>  <div class="release clearfix" id="release_364324">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1386111726" /></li>
+        <li class="release"><a href="/projects/apache/releases/364324">2.4.9</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1386111726" /></li>
+        <li class="rdate">&nbsp;11 Jun 2014 09:04</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1386111726" /></li>
+      </ul>
+
+      <div class="meta clearfix">
+        <ul class="tagList"></ul>
+      </div>
+    </div>
+    <p class="truncate changes"><strong>Release Notes:</strong> New features include loadable MPMs, major improvements to OCSP support, mod_lua, dynamic reverse proxy configuration, improved authentication/authorization, FastCGI proxy, a new expression parser, and a small object caching API.
+  </div>
+  <div class="release clearfix" id="release_357995">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1386111726" /></li>
+        <li class="release"><a href="/projects/apache/releases/357995">2.4.6</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1386111726" /></li>
+        <li class="rdate">&nbsp;24 Sep 2013 10:05</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1386111726" /></li>
+      </ul>
+
+      <div class="meta clearfix">
+        <ul class="tagList"></ul>
+      </div>
+    </div>
+    <p class="truncate changes"><strong>Release Notes:</strong> This major release features loadable MPMs, major improvements to OCSP support, mod_lua, dynamic reverse proxy configuration, improved authentication/authorization, a FastCGI proxy, a new expression parser, and a small object caching API.
+  </div>
+  <div class="release clearfix" id="release_313854">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1386111726" /></li>
+        <li class="release"><a href="/projects/apache/releases/313854">2.2.15</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1386111726" /></li>
+        <li class="rdate">&nbsp;15 Mar 2010 10:25</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1386111726" /></li>
+      </ul>
+
+      <div class="meta clearfix">
+        <ul class="tagList"></ul>
+      </div>
+    </div>
+    <p class="truncate changes"><strong>Release Notes:</strong> This release was updated to reflect the OpenSSL project's release 0.9.8m of the openssl library, and addresses the TLS renegotiation prefix injection attack.
+This release further addresses security issues within mod_proxy_ajp, mod_isapi, and mod_headers
+respectively.
+  </div>
+  <div class="release clearfix" id="release_311997">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1386111726" /></li>
+        <li class="release"><a href="/projects/apache/releases/311997">1.3.42</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1386111726" /></li>
+        <li class="rdate">&nbsp;05 Feb 2010 15:22</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1386111726" /></li>
+      </ul>
+
+      <div class="meta clearfix">
+        <ul class="tagList"></ul>
+      </div>
+    </div>
+    <p class="truncate changes"><strong>Release Notes:</strong> This release is intended as the final release of version 1.3 of the Apache HTTP Server, which has reached end-of-life status. It fixes a security issue in mod_proxy in order to prevent chunk-size integer overflows on platforms where sizeof(int) < sizeof(long).
+  </div>
+  <div class="release clearfix" id="release_311996">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1386111726" /></li>
+        <li class="release"><a href="/projects/apache/releases/311996">2.3.5</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1386111726" /></li>
+        <li class="rdate">&nbsp;05 Feb 2010 15:20</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1386111726" /></li>
+      </ul>
+
+      <div class="meta clearfix">
+        <ul class="tagList"></ul>
+      </div>
+    </div>
+    <p class="truncate changes"><strong>Release Notes:</strong> This version of Apache is principally an alpha release to test new technology and features that are incompatible or too large for the stable 2.2.x branch.
+  </div>
+    </div>
+    <div class="recent-comments">
+        <h2>
+          <ul class="comments-sub-navigation">
+            <li><a href="/projects/apache/comments">All comments</a></li>
+          </ul>Recent comments
+        </h2>        <div class="comment" id="comment_49905">
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1386111726" />
+    <span class="date">20 May 2010 00:31</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1386111726" />   
+    <span class="author">
+        <a href="/users/suso" class="avatar" title="suso" valign="bottom"><img class="gravatar" alt="" width="20" height="20" src="http://www.gravatar.com/avatar/ad4ab65586968593b9f2c5c44d4bb0a8?rating=PG&amp;size=20&amp;default=http%3A%2F%2Fa.fsdn.com%2Ffm%2Fimages%2Fdefault_tiny_avatar.png" /></a>
+      
+      <a href="/users/suso">suso</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1386111726" />
+    
+      <span class="vote clearfix"></span>
+    
+  </div>
+  <div class="comment-content">
+    <p><p>&gt; Is version 2 the latest?
+<br />&gt; Can anyone tell me if they stopped developing apache? Seems version 2 is 
+<br />&gt; around for a couple of years already.</p>
+
+<p>2.0 came out in March of 2001 (released at ApacheCon 2001)  2 is what you call a major release version, 2.2 was nearly a major release and had lots of fixes and new features. 2.4 is supposed to have quite a few new features.  You just have to get used to open source projects, their version numbers don't grow as fast as proprietary (read: commercial) software.</p></p>
+  </div>
+</div>
+        <div class="comment" id="comment_47918">
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1386111726" />
+    <span class="date">01 Jan 2009 12:40</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1386111726" />   
+    <span class="author">
+        <a href="/users/ArchiSams" class="avatar" title="ArchiSams" valign="bottom"><img class="gravatar" alt="" width="20" height="20" src="http://www.gravatar.com/avatar/6e0e5dc2798d2d4bc9101d8e8e7c2982?rating=PG&amp;size=20&amp;default=http%3A%2F%2Fa.fsdn.com%2Ffm%2Fimages%2Fdefault_tiny_avatar.png" /></a>
+      
+      <a href="/users/ArchiSams">ArchiSams</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1386111726" />
+    
+      <span class="vote clearfix"></span>
+    
+  </div>
+  <div class="comment-content">
+    <p><p>Is version 2 the latest?
+<br />Can anyone tell me if they stopped developing apache? Seems version 2 is around for a couple of years already.</p></p>
+  </div>
+</div>
+        <div class="comment" id="comment_44609">
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1386111726" />
+    <span class="date">23 Nov 2007 07:26</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1386111726" />   
+    <span class="author">
+        <a href="/users/rspenc29" class="avatar" title="rspenc29" valign="bottom"><img class="gravatar" alt="" width="20" height="20" src="http://www.gravatar.com/avatar/7a958b54c351e822ff74c534fc6b4a18?rating=PG&amp;size=20&amp;default=http%3A%2F%2Fa.fsdn.com%2Ffm%2Fimages%2Fdefault_tiny_avatar.png" /></a>
+      
+      <a href="/users/rspenc29">rspenc29</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1386111726" />
+    
+      <span class="vote clearfix"></span>
+    
+  </div>
+  <div class="comment-content">
+    <p><p>Mod Rewrite Rules!
+<br />Apache is great. I don't think I could live without mod rewrite. I get so much use out of it and will never switch to IIS</p></p>
+  </div>
+</div>
+        <div class="comment" id="comment_44299">
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1386111726" />
+    <span class="date">23 Oct 2007 04:02</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1386111726" />   
+    <span class="author">
+        <a href="/users/cotono" class="avatar" title="cotono" valign="bottom"><img class="gravatar" alt="" width="20" height="20" src="http://www.gravatar.com/avatar/c84c42de03cb0b188c02553830d7c4d7?rating=PG&amp;size=20&amp;default=http%3A%2F%2Fa.fsdn.com%2Ffm%2Fimages%2Fdefault_tiny_avatar.png" /></a>
+      
+      <a href="/users/cotono">cotono</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1386111726" />
+    
+      <span class="vote clearfix"></span>
+    
+  </div>
+  <div class="comment-content">
+    <p><p>Re: Nice Features</p>
+
+<p>
+<br />&gt; yea mod-rewrite is a awesome mod. do you</p>
+
+<p>&gt; know if its possible to use it on a</p>
+
+<p>&gt; windows / apache system?</p>
+
+<p></p>
+
+<p></p>
+
+<p>You should check out http://www.wampserver.com/en/, their install comes with mod-rewrite!</p></p>
+  </div>
+</div>
+        <div class="comment" id="comment_44162">
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1386111726" />
+    <span class="date">07 Oct 2007 05:11</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1386111726" />   
+    <span class="author">
+        <a href="/users/phiro47" class="avatar" title="phiro47" valign="bottom"><img class="gravatar" alt="" width="20" height="20" src="http://www.gravatar.com/avatar/a652c2acd9a81b9ff0200d0236878209?rating=PG&amp;size=20&amp;default=http%3A%2F%2Fa.fsdn.com%2Ffm%2Fimages%2Fdefault_tiny_avatar.png" /></a>
+      
+      <a href="/users/phiro47">phiro47</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1386111726" />
+    
+      <span class="vote clearfix"></span>
+    
+  </div>
+  <div class="comment-content">
+    <p><p>mod_rewrite
+<br />@ manuel: yes, you can use it in windows. It works also in a package like xampp for example.</p></p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="sbblock">
+  <div class="sidebar first">
+    <div class="sidebar-content">
+      <h3>Links</h3>
+      <ul class="sub-navigation divide"><a name="downloads"></a>
+<li class="url " title="Bug Tracker - httpd.apache.org"><a href="/urls/5d1dcb27098e5fc5e2bb469cc6cfdae3">Bug Tracker</a></li>
+<li class="url changelog" title="Changelog - www.apache.org"><a href="/urls/2c733963ed8612466ada827cee5df749">Changelog</a></li>
+<li class="url " title="Download - httpd.apache.org"><a href="/urls/dee55d79baea219990f060ca463af068">Download</a></li>
+<li class="url " title="Download - httpd.apache.org"><a href="/urls/dee55d79baea219990f060ca463af068">Download</a></li>
+<li class="url " title="Mailinglist - mail-archives.apache.org"><a href="/urls/b22ae7de12d2cc5ffab5599f16e660c3">Mailinglist</a></li>
+<li class="url " title="Subversion - svn.apache.org"><a href="/urls/a71d2296b8003567c8965912aff6aaca">Subversion</a></li>
+<li class="url website" title="Website - httpd.apache.org"><a href="/urls/3ad3e8da6a5c6a7dcf1f1d76b0747c17">Website</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-content">
+        <div class="submitter clearfix">
+          <ul>
+            <li class="avatar"><a href="/users/psychonaut" class="avatar" title="psychonaut"><img alt="Avatar" src="http://www.gravatar.com/avatar/f4a804fbb24172b2bbdd8f17b5dc1b63?rating=PG&amp;size=30" /></a></li>
+            <li><p><a href="/users/psychonaut" class="submitter">psychonaut</a><br />
+              <span>15 Aug 2003 07:26</span></p></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-screen">
+        </div>
+
+      <ul class="sub-navigation split">
+        <li class="dependency"><a href="/projects/apache/dependencies">Dependencies</a></li>
+        <!-- <li class="report-problem"><a href="/projects/apache/tickets/new">Report problem</a></li> -->
+      </ul>
+
+      <ul class="sub-navigation split">
+        <li class="graphs"><a href="/projects/apache/date_metrics">Graphs</a></li>
+      </ul>
+
+      <div class="project-filter">
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+  </div>
+
+
+  <div class="banner-imu">
+    <!-- DoubleClick Ad Tag -->
+<script language="JavaScript" type="text/javascript">
+  FC.loadAd('main_p6_imu', document.location.protocol+'//ad.doubleclick.net/adj/ostg.freshmeat/main_p6_imu;pg=%2Fprojects%2Fapache;logged_in=0;sz=300x250,300x600;tile='+dfp_tile+';ord='+dfp_ord+'?');
+   dfp_tile++;
+</script>
+<!-- End DoubleClick Ad Tag -->
+
+  </div>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="mashup">
+      <div class="mashup-container clearfix">
+          
+          <div class="col-1">
+            <a href="/projects/openstack4j"><img alt="Screenshot" class="screenshotThumb" src="http://a.fsdn.com/fm/images/no-screenshot.png?1386111726" /></a>
+            <h2>Project Spotlight</h2>
+            <h3><a href="/projects/openstack4j">OpenStack4j</a></h3>
+            <p>A Fluent OpenStack client API for Java.</p>
+          </div>
+          
+          <div class="col-2">
+            <a href="/projects/turnkey-twiki-appliance"><img alt="Screenshot" class="screenshotThumb" src="http://a.fsdn.com/fm/images/no-screenshot.png?1386111726" /></a>
+            <h2>Project Spotlight</h2>
+            <h3><a href="/projects/turnkey-twiki-appliance">TurnKey TWiki Appliance</a></h3>
+            <p>A TWiki appliance that is easy to use and lightweight.</p>
+          </div>
+          
+        
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="footer-container">
+        <div class="twitter-icon floatright">
+          <a href="http://twitter.com/freecode_com"><img src="//twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow Freecode on Twitter"/></a>
+        </div>
+        <div class="footerLinks">
+          <a href="/about">About Freecode</a>
+          <a target="_blank" href="http://slashdotmedia.com/privacy-statement/">Privacy</a>
+          <a target="_blank" href="http://slashdotmedia.com/opt-out-choices">Cookies/Opt Out</a>
+          <a target="_blank" href="http://slashdotmedia.com/terms-of-use">Terms</a>
+          <a target="_blank" href="http://slashdotmedia.com/">Advertise</a>
+          <!-- <a href="http://help.freecode.com/" onclick="window.open(this.href);return false;">Contact Us</a> -->
+        </div>
+        <div class="copyright">
+          &copy; 2015 Slashdot Media.
+          All Rights Reserved.
+          Freecode is a <a target="_blank" href="http://www.dhigroupinc.com/">DHI service</a>.
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="http://a.fsdn.com/fm/javascripts/base_packaged.js?1386111741" type="text/javascript"></script>
+
+    
+    
+    <!-- Begin comScore Tag -->
+    <script type="text/javascript">
+      document.write(unescape("%3Cscript src='" +
+      (document.location.protocol == "https:" ? "https://sb" : "http://b") +
+      ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      COMSCORE.beacon({
+          c1:2,
+          c2:6035546,
+          c3:"",
+          c4:"",
+          c5:"",
+          c6:"",
+          c15:""
+      });
+    </script>
+
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2" />
+    </noscript>
+    <!-- End comScore Tag -->
+    <script type="text/javascript">document.write(unescape('%3Cscript type="text/javascript" src="'+document.location.protocol+'//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/0794.js"%3E%3C%2Fscript%3E'))</script>
+  </body>
+</html>

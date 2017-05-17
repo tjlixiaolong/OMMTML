@@ -1,0 +1,12 @@
+comment:AutofacDemo_projects.txt,87.97320782775093
+comment:Beta_projects.txt,87.97320782775093
+comment:CCourse_projects.txt,87.97320782775093
+comment:ClusterDataSupport_projects.txt,87.97320782775093
+comment:ClusterData_projects.txt,87.97320782775093
+comment:firebug_projects.txt,0.2759543624670739
+comment:git_projects.txt,0.22540983154444488
+comment:GrandMall_projects.txt,87.97320782775093
+comment:GraphStorageMonitor_projects.txt,87.97320782775093
+comment:mysql-server_projects.txt,3.621682131103603
+comment:php-src_projects.txt,0.10212343792198765
+comment:QuantitativeAnalysis_projects.txt,87.97320782775093

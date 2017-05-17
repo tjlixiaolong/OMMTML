@@ -1,0 +1,12 @@
+open_issue:AutofacDemo_projects.txt,51.172826291731916
+open_issue:Beta_projects.txt,51.172826291731916
+open_issue:CCourse_projects.txt,51.172826291731916
+open_issue:ClusterDataSupport_projects.txt,51.172826291731916
+open_issue:ClusterData_projects.txt,51.172826291731916
+open_issue:firebug_projects.txt,1.4406511416193262
+open_issue:git_projects.txt,1.335215280086561
+open_issue:GrandMall_projects.txt,51.172826291731916
+open_issue:GraphStorageMonitor_projects.txt,51.172826291731916
+open_issue:mysql-server_projects.txt,51.172826291731916
+open_issue:php-src_projects.txt,0.6869638518620296
+open_issue:QuantitativeAnalysis_projects.txt,51.172826291731916

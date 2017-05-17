@@ -1,0 +1,8 @@
+commit count is :4
+[aafbad5c8bdc5a6954d87151b6ca618deb4f31c6,Thu Feb 19 09:45:34 CST 2009],[704a5a244aec5414543aa33cd5ed7f298323d6c0,Thu Feb 19 09:45:34 CST 2009],[6d5390d4ed2c450723eddb1372a73ff2b95f04a9,Thu Feb 19 09:45:34 CST 2009],[56394e0f8654371fe9f718e32cd4524a9f04b2b3,Wed May 20 15:16:15 CST 2009]
+comment count is :0
+
+contributor count is :2
+[55764,Thu Feb 19 09:45:34 CST 2009],[86614,Wed May 20 15:16:15 CST 2009]
+fork count is :0
+

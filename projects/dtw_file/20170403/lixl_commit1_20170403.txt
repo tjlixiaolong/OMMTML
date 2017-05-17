@@ -1,0 +1,12 @@
+commit1:AutofacDemo_projects.txt,112.24303496567344
+commit1:Beta_projects.txt,112.24303496567344
+commit1:CCourse_projects.txt,112.24303496567344
+commit1:ClusterDataSupport_projects.txt,112.24303496567344
+commit1:ClusterData_projects.txt,112.24303496567344
+commit1:firebug_projects.txt,0.05706478341363481
+commit1:git_projects.txt,0.001279653065757136
+commit1:GrandMall_projects.txt,112.24303496567344
+commit1:GraphStorageMonitor_projects.txt,86.5602052738551
+commit1:mysql-server_projects.txt,0.024843639010459332
+commit1:php-src_projects.txt,0.0011210069161658107
+commit1:QuantitativeAnalysis_projects.txt,112.24303496567344

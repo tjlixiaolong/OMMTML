@@ -1,0 +1,12 @@
+fork:AutofacDemo_projects.txt,337.29929265918884
+fork:Beta_projects.txt,337.29929265918884
+fork:CCourse_projects.txt,337.29929265918884
+fork:ClusterDataSupport_projects.txt,337.29929265918884
+fork:ClusterData_projects.txt,337.29929265918884
+fork:firebug_projects.txt,0.48665951101355803
+fork:git_projects.txt,0.16449831471159493
+fork:GrandMall_projects.txt,337.29929265918884
+fork:GraphStorageMonitor_projects.txt,337.29929265918884
+fork:mysql-server_projects.txt,0.25455278952574356
+fork:php-src_projects.txt,0.1478122991153841
+fork:QuantitativeAnalysis_projects.txt,337.29929265918884

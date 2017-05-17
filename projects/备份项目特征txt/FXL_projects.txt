@@ -1,0 +1,14 @@
+commit count is :9
+[94936090486129d6ea0ceaa5dce0393cbc452b53,Fri Oct 26 20:17:08 CST 2012],[ee0e246fa5fa321635753c01dc7874e242c37f30,Fri Oct 26 20:17:08 CST 2012],[927cb0463a74b27ccc8d70c20cccdf7d982b2c6a,Fri Oct 26 20:17:08 CST 2012],[95903e69d6410e35637c36a2a5b7ac8f93327505,Fri Oct 26 20:17:08 CST 2012],[03f864e4f14baa0b9dfe99bbfcb7cc34cfc54555,Fri Oct 26 20:17:08 CST 2012],[311baed70d7431dd4f0d8fb61149f0beaa6c4c83,Fri Oct 26 20:17:08 CST 2012],[f92310b1a3f6129d264128bd6dd47413573c0981,Fri Oct 26 20:17:08 CST 2012],[84a1a6bdc2ea11a3d80f03f5b8545b8cd3c5d288,Fri Oct 26 20:17:08 CST 2012],[03a9a4c9ece21064ea2e04e56094d2a1e0faf22d,Fri Oct 26 20:17:08 CST 2012]
+comment count is :0
+
+contributor count is :1
+[2656965,Fri Oct 26 20:17:08 CST 2012]
+fork count is :0
+
+issue count is :0
+
+issue count is :0
+
+release count is :0
+
